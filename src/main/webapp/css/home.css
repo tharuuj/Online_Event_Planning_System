@@ -1,0 +1,127 @@
+@charset "ISO-8859-1";
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D2691E;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+body {
+    font-family: 'Courier New';
+    margin: 0;
+    padding: 0;
+    background-color: #FFE4B5;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    font-family: Arial;
+    font-size: 20px;
+    align-items: center;
+    
+    padding: 1px 0;
+    justify-content: space-between; /* Center buttons horizontally */
+}
+
+    header img {
+        width: 100px; /* Adjust the width as needed */
+        height: auto; /* Preserve the aspect ratio */
+        margin-left: 20px; /* Add some left margin to the logo */
+    }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center buttons vertically */
+}
+
+    nav ul li {
+        display: inline;
+        float: right;
+        display: block;
+        color: white;
+        padding: 14px 18px;
+        text-decoration: none;
+    }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px; /* Add some horizontal spacing between the buttons */
+        }
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px;
+    color: #8B4513; /* Set the text color to white for visibility */
+}
+
+.service {
+    background-color: #fff;
+    border: 1px solid #FF4500; /* Slightly darker border */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: calc(33.33% - 20px);
+}
+
+footer {
+    background-color: #222; /* Dark background for footer */
+    padding: 20px;
+    text-align: left;
+}
+
+.contact, .social-media {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+    color: #fff;
+}
+
+    .social-media a {
+        color: #fff;
+        text-decoration: none;
+        margin: 5px;
+        text-align: left;
+    }
+
+/* Add this CSS to style the search bar */
+.search-section {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px; /* Adjust the width as needed */
+    outline: none; /* Remove the outline on focus */
+}
+
+    .search-bar::placeholder {
+        color: #999; /* Placeholder text color */
+    }
+
+.search-button {
+    background-color: #D2691E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
